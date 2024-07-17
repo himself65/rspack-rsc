@@ -1,0 +1,26 @@
+{
+  "name": "artus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rspack/core": "^0.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "@types/react": "^18.3.3",
+    "ai": "^3.2.27",
+    "react": "^19.0.0-rc-01172397-20240716",
+    "react-dom": "^19.0.0-rc-01172397-20240716",
+    "react-server-dom-webpack": "^19.0.0-rc-01172397-20240716",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "zod": "^3.23.8"
+  }
+}
