@@ -1,5 +1,7 @@
 import { createAI } from 'ai/rsc'
-import Component from './component'
+import { lazy } from 'react'
+
+const Component = lazy(() => import('./component'))
 
 const AI = createAI({
   actions: {}

@@ -34,6 +34,9 @@ const compiler = rspack(
       extensions: ['.js'],
       mainFiles: ['index']
     },
+    resolve: {
+      extensions: ['...', '.ts', '.tsx']
+    },
     module: {
       rules: [
         {
